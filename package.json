@@ -1,9 +1,8 @@
 {
-  "name": "praneshr.github.io",
+  "name": "praneshr",
   "version": "2.0.0",
   "description": "Personal website of Pranesh Ravi",
   "main": "server.js",
-  "repository": "git@github.com:praneshr/praneshr.github.io.git",
   "author": "Pranesh Ravi <praneshpranesh@gmail.com>",
   "license": "MIT",
   "private": true,
