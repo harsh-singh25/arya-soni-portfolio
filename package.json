@@ -2,7 +2,7 @@
   "name": "praneshr.github.io",
   "version": "2.0.0",
   "description": "Personal website of Pranesh Ravi",
-  "main": "index.html",
+  "main": "server.js",
   "repository": "git@github.com:praneshr/praneshr.github.io.git",
   "author": "Pranesh Ravi <praneshpranesh@gmail.com>",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "build:dev": "node-sass src/index.scss dist/index.css",
     "build:watch": "yarn build && node-sass src/index.scss -wo dist",
     "build": "node-sass src/index.scss dist/index.css --output-style compressed",
-    "start": "http-server",
-    "start:dev": "http-server -c-1",
+    "start": "nodemon server.js",
+    "start:dev": "nodemon server.js",
     "deploy": "now && now alias"
   },
   "devDependencies": {
@@ -23,5 +23,16 @@
     "http-server": "^0.11.1",
     "node-sass": "^4.8.3",
     "now": "^11.1.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7"
   }
 }
