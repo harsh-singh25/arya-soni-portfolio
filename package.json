@@ -6,9 +6,7 @@
   "author": "Pranesh Ravi <praneshpranesh@gmail.com>",
   "license": "MIT",
   "private": true,
-  "now": {
-    "alias": "praneshr.now.sh"
-  },
+  
   "scripts": {
     "build:dev": "node-sass src/index.scss dist/index.css",
     "build:watch": "yarn build && node-sass src/index.scss -wo dist",
