@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LIST OF PROJECTS</title>
+</head>
+<body>
+    <h1>View Projects or Edit Projects</h1>
+
+    <h3><a href="addproject">Add New Project</a></h3>
+    
+    
+    <table border="1">
+        <tr>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Project Link</td>
+            <td>Github Link</td>
+            <td>Action</td>
+        </tr>
+
+        <% for( var i=0 ; i<data.length ; i++) { %>
+        <tr>   
+            <td><%= data[i].title %></td>
+            <td><%= data[i].description %></td>
+            <td><%= data[i].link %></td>
+            <td><%= data[i].githublink %></td>
+            <td><%= data[i].imagename %></td>
+            <td>
+                
+                <a href="deleteRecord/<%= data[i]._id %>">Delete</a>
+            </td>
+        </tr>
+
+        <% } %>
+
+    </table>
+
+</body>
+</html>

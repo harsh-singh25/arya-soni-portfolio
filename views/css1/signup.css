@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/backgroun1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.simple-form{
+    text-align: center;
+    border: 3px solid white;
+    margin:70px 400px;
+    background-color:#051019 ;
+    opacity: 0.8;
+
+}
+
+#registration{
+    width: 100%;
+
+    padding: 50px 0px;
+}
+
+#button{
+
+    width: 500px;
+    padding:10px;
+    border-radius: 5px;
+    font-family: Asap;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+#number{
+    width: 400px;
+    padding:10px;
+    border-radius: 5px;
+    font-family: Asap;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#option{
+    border-radius:5px ;
+    padding:10px;
+}
+
+#rad1{
+color: white;
+font-size: 20px;
+margin-left: 10px;
+}
+#rad2{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    
+    }
+
+#rad-button{
+
+    margin-left: 40px;
+
+}
+
+#submit{
+
+    padding:5px 20px;
+    color: white;
+    background-color:forestgreen ;
+    width:fit-content;
+    font-size:30px ;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.heading{
+    color: white;
+   
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+h3{
+    text-decoration: none;
+    color:white;
+}
