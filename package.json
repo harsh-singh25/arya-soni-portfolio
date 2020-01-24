@@ -1,13 +1,13 @@
 {
-  "name": "praneshr",
+  "name": "haRSH",
   "version": "2.0.0",
   "description": "Personal website of Pranesh Ravi",
   "main": "server.js",
   "license": "MIT",
 
   "scripts": {
-    "start": "nodemon server.js",
-    "start:dev": "nodemon server.js"
+    "start": "node server.js",
+    "start:dev": "node server.js"
     
   },
   "devDependencies": {
