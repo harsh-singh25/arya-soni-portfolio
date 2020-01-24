@@ -3,10 +3,8 @@
   "version": "2.0.0",
   "description": "Personal website of Pranesh Ravi",
   "main": "server.js",
-  "author": "Pranesh Ravi <praneshpranesh@gmail.com>",
   "license": "MIT",
-  "private": true,
-  
+
   "scripts": {
     "build:dev": "node-sass src/index.scss dist/index.css",
     "build:watch": "yarn build && node-sass src/index.scss -wo dist",
