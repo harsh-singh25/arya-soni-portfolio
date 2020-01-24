@@ -18,10 +18,7 @@ app.use('/addproject',indexRoute);
 app.use('/admin',indexRoute);
 app.use('/list',indexRoute);
 
-
-
-
-port = 8200 || process.env.PORT
+port = process.env.PORT || 3973
 app.listen(port,() => {
     console.log("SERVR RUNNING ON PORT: " + port);
 })
