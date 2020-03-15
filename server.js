@@ -19,6 +19,6 @@ app.use('/admin',indexRoute);
 app.use('/list',indexRoute);
 
 port = process.env.PORT || 3973
-app.listen(port() => {
+app.listen(port,() => {
     console.log("SERVR RUNNING ON PORT: " + port);
 })
